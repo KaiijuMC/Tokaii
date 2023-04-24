@@ -1,0 +1,25 @@
+# This is the main configuration file for Kaiiju.
+# Some options may impact gameplay, so use with caution.
+# If you need help or have any questions related to Kaiiju,
+# Join our Discord server: https://discord.com/invite/qagZRAepb7
+# Documentation: https://github.com/KaiijuMC/Kaiiju/wiki/Configuration
+
+verbose: false
+gameplay:
+  server-mod-name: Kaiiju
+network:
+  send-null-entity-packets: false
+  alternate-keepalive: true
+region-format:
+  debug: false
+world-settings:
+  default:
+    gameplay:
+      shulker-box-drop-contents-when-destroyed: true
+      fix-void-trading: false
+    region-format:
+      format: LINEAR
+      linear:
+        compression-level: 1
+        crash-on-broken-symlink: true
+config-version: 1
