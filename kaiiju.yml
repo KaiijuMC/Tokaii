@@ -17,6 +17,7 @@ world-settings:
     gameplay:
       shulker-box-drop-contents-when-destroyed: true
       fix-void-trading: false
+      optimize-hoppers: false
     region-format:
       format: LINEAR
       linear:
