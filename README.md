@@ -12,7 +12,9 @@ Toute fonctionnalité non citée est bannie.
 - 🟢 Waypoints
 - 🟢 Freecam
 - 🟢 Autorespawn
-- 🟢 Interaction avec des tile entity
 - 🟠 Autoclic: interval fixe uniquement.
+
+## Spécifique aux bots
+- 🟢 Rotation
+- 🟢 Interaction avec des tile entity
 - 🟠 Chatbot: réponse en `/msg uniquement`. Spam interdit.
-- 🟠 Pathfind vers des coordonnées: hardcodées uniquement
