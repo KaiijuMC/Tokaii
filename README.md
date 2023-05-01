@@ -12,6 +12,7 @@ Toute fonctionnalité non citée est bannie.
 - 🟢 Waypoints
 - 🟢 Freecam
 - 🟢 Autorespawn
+- 🟠 Schematic: easy place dans la range vanilla uniquement.
 - 🟠 Autoclic: intervalle fixe uniquement.
 
 ## Spécifique aux bots
