@@ -12,7 +12,7 @@ Toute fonctionnalité non citée est bannie.
 - 🟢 Waypoints
 - 🟢 Freecam
 - 🟢 Autorespawn
-- 🟠 Autoclic: interval fixe uniquement.
+- 🟠 Autoclic: intervalle fixe uniquement.
 
 ## Spécifique aux bots
 - 🟢 Rotation
