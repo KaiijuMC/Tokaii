@@ -17,4 +17,5 @@ Toute fonctionnalité non citée est bannie.
 ## Spécifique aux bots
 - 🟢 Rotation
 - 🟢 Interaction avec des tile entity
+- 🟠 Rotation: hardcodée uniquement.
 - 🟠 Chatbot: réponse en `/msg uniquement`. Spam interdit.
