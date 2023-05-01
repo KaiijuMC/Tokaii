@@ -1,12 +1,19 @@
 # Tokaii
 
 ## Configuration
-Fichiers de configuration de [Tokaii](tokaii.fr) sont disponibles ici.
+Fichiers de configuration de [Tokaii](tokaii.fr) sont disponibles ici.  
+Une question/suggestion => `# 📡︱meta` sur le discord.
 
-## Fonctionnalités autorisées
+## Mods autorisés
 Toute fonctionnalité non citée est bannie.
-Une question => `# 📡︱meta` sur le discord.
 
 - 🟢 Autoclic
+- 🟢 Fullbright
+- 🟢 Minimap
+- 🟢 Waypoints
+- 🟢 Freecam
+- 🟢 Autorespawn
+- 🟢 Autoclic
+- 🟢 Interaction avec des tile entity
 - 🟠 Chatbot: réponse en `/msg uniquement`. Spam interdit.
 - 🟠 Pathfind vers des coordonnées: hardcodées uniquement
