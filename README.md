@@ -21,4 +21,4 @@ Toute fonctionnalité non citée est bannie.
 - 🟢 Interaction avec des tile entity
 - 🟠 Rotation: hardcodée uniquement.
 - 🟠 Pathfinding: vers des coordonnées hardcodées uniquement.
-- 🟠 Chatbot: réponse en `/msg uniquement`. Spam interdit.
+- 🟠 Chatbot: réponse en `/msg` uniquement. Spam interdit.
