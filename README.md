@@ -16,8 +16,8 @@ Toute fonctionnalité non citée est bannie.
 - 🟠 Litematics: easy place dans la range vanilla uniquement.
 
 ## Spécifique aux bots
-- 🟢 Autowalk
-- 🟢 Autojump
+- 🟢 Marcher
+- 🟢 Sauter
 - 🟢 Interaction avec des tile entity
 - 🟠 Rotation: hardcodée uniquement.
 - 🟠 Pathfinding: vers des coordonnées hardcodées uniquement.
