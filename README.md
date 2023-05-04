@@ -22,3 +22,5 @@ Toute fonctionnalité non citée est bannie.
 - 🟠 Rotation: hardcodée uniquement.
 - 🟠 Pathfinding: vers des coordonnées hardcodées uniquement.
 - 🟠 Chatbot: réponse en `/msg` uniquement. Spam interdit.
+
+Tout bot doit être open-source.
