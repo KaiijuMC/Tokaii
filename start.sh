@@ -1,1 +1,1 @@
-screen -dm -S minecraft /bin/bash /home/minecraft/srv/server.sh
+screen -dm -S minecraft /bin/bash /home/tokaii/kaiiju/server.sh
