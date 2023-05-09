@@ -118,7 +118,7 @@ world-settings:
       swim-multiplier: 0.01
       sprint-multiplier: 0.1
       other-multiplier: 0.0
-    max-tnt-per-tick: 100
+    max-tnt-per-tick: -1
     growth:
       cactus-modifier: 100
       cane-modifier: 100
