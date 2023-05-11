@@ -5,24 +5,25 @@
 # Documentation: https://github.com/KaiijuMC/Kaiiju/wiki/Configuration
 
 verbose: false
-gameplay:
-  server-mod-name: Kaiiju
+region-format:
+  debug: false
 network:
   send-null-entity-packets: false
   alternate-keepalive: true
-region-format:
-  debug: false
+gameplay:
+  server-mod-name: Kaiiju
+  shared-random-for-players: false
 world-settings:
   default:
-    gameplay:
-      break-redstone-on-top-of-trap-doors-early: false
-      tick-when-empty: false
-      shulker-box-drop-contents-when-destroyed: true
-      fix-void-trading: false
-      optimize-hoppers: false
     region-format:
       format: LINEAR
       linear:
         compression-level: 1
         crash-on-broken-symlink: true
+    gameplay:
+      shulker-box-drop-contents-when-destroyed: true
+      fix-void-trading: false
+      optimize-hoppers: false
+      tick-when-empty: false
+      break-redstone-on-top-of-trap-doors-early: false
 config-version: 1
