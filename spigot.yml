@@ -142,10 +142,10 @@ world-settings:
       glowberry-modifier: 100
     entity-activation-range:
       animals: 32
-      monsters: 32
-      raiders: 48
-      misc: 16
-      water: 16
+      monsters: 64
+      raiders: 64
+      misc: 32
+      water: 32
       villagers: 32
       flying-monsters: 32
       wake-up-inactive:
