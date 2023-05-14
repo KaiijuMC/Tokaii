@@ -144,7 +144,7 @@ world-settings:
       animals: 32
       monsters: 64
       raiders: 64
-      misc: 32
+      misc: -1
       water: 32
       villagers: 32
       flying-monsters: 32
