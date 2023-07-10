@@ -75,13 +75,14 @@ chunks:
     trident: 16
     wither_skull: 4
   fixed-chunk-inhabited-time: -1
+  flush-regions-on-save: false
   max-auto-save-chunks-per-tick: 10
-  prevent-moving-into-unloaded-chunks: true
+  prevent-moving-into-unloaded-chunks: false
 collisions:
   allow-player-cramming-damage: false
   allow-vehicle-collisions: true
-  fix-climbing-bypassing-cramming-rule: true
-  max-entity-collisions: 3
+  fix-climbing-bypassing-cramming-rule: false
+  max-entity-collisions: 5
   only-players-collide: false
 entities:
   armor-stands:
@@ -132,6 +133,8 @@ entities:
     zombie-villager-infection-chance: -1.0
     zombies-target-turtle-eggs: true
   entities-target-with-follow-range: false
+  markers:
+    tick: true
   mob-effects:
     immune-to-wither-effect:
       wither: true

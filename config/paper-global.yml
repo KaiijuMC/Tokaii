@@ -13,6 +13,9 @@
 # Website: https://papermc.io/
 
 _version: 28
+block-updates:
+  disable-noteblock-updates: false
+  disable-tripwire-updates: false
 chunk-loading:
   autoconfig-send-distance: true
   enable-frustum-priority: false
@@ -34,7 +37,7 @@ chunk-loading-basic:
   player-max-chunk-send-rate: 200.0
 chunk-system:
   gen-parallelism: default
-  io-threads: 1
+  io-threads: 2
   worker-threads: 2
 collisions:
   enable-player-collisions: true
@@ -61,7 +64,6 @@ item-validation:
 logging:
   deobfuscate-stacktraces: true
   log-player-ip-addresses: true
-  use-rgb-for-named-text-colors: true
 messages:
   kick:
     authentication-servers-down: <lang:multiplayer.disconnect.authservers_down>
@@ -86,8 +88,8 @@ misc:
 packet-limiter:
   all-packets:
     action: KICK
-    interval: 7.0
-    max-packet-rate: 500.0
+    interval: 1.0
+    max-packet-rate: 5000.0
   kick-message: <red><lang:disconnect.exceeded_packet_rate>
   overrides:
     ServerboundPlaceRecipePacket:

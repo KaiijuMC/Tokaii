@@ -22,7 +22,7 @@ settings:
   save-user-cache-on-stop-only: false
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
-  netty-threads: 4
+  netty-threads: 2
   attribute:
     maxHealth:
       max: 2048.0
@@ -59,9 +59,10 @@ players:
   disable-saving: false
 world-settings:
   default:
+    seed-trailruins: 83469867
     max-tick-time:
-      tile: 50
-      entity: 50
+      tile: 1000000
+      entity: 1000000
     below-zero-generation-in-existing-chunks: true
     view-distance: default
     simulation-distance: default
@@ -80,6 +81,7 @@ world-settings:
     mob-spawn-range: 8
     end-portal-sound-radius: 0
     entity-tracking-range:
+      display: 128
       players: 128
       animals: 96
       monsters: 96
@@ -120,6 +122,8 @@ world-settings:
       other-multiplier: 0.0
     max-tnt-per-tick: -1
     growth:
+      torchflower-modifier: 100
+      pitcherplant-modifier: 100
       cactus-modifier: 100
       cane-modifier: 100
       melon-modifier: 100

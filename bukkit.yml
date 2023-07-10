@@ -7,7 +7,7 @@ settings:
   connection-throttle: -1
   query-plugins: false
   deprecated-verbose: default
-  shutdown-message: CRASH :( (dsl la team)
+  shutdown-message: Redémarrage en cours. (Maintenance / Crash)
   minimum-api: none
   use-map-color-cache: true
 spawn-limits:
