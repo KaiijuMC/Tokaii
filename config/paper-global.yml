@@ -38,7 +38,7 @@ chunk-loading-basic:
 chunk-system:
   gen-parallelism: default
   io-threads: 2
-  worker-threads: 2
+  worker-threads: 1
 collisions:
   enable-player-collisions: true
   send-full-pos-for-hard-colliding-entities: true
@@ -104,9 +104,9 @@ proxies:
     online-mode: true
   proxy-protocol: false
   velocity:
-    enabled: false
-    online-mode: false
-    secret: ''
+    enabled: true
+    online-mode: true
+    secret: be8o5sSgNU67
 scoreboards:
   save-empty-scoreboard-teams: false
   track-plugin-scoreboards: false
@@ -117,7 +117,7 @@ spam-limiter:
   tab-spam-increment: 1
   tab-spam-limit: 500
 threaded-regions:
-  threads: 6
+  threads: 4
 timings:
   enabled: false
   hidden-config-entries:

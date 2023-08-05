@@ -10,7 +10,14 @@ optimization:
   disable-player-stats: false
   disable-arm-swing-event: false
   disable-ensure-tick-thread-checks: false
+  async-path-processing:
+    enable: true
+    max-threads: 4
+    keepalive: 60
 region-format:
+  linear:
+    flush-frequency: 10
+    flush-max-threads: 1
   debug: false
 network:
   send-null-entity-packets: false
@@ -25,7 +32,7 @@ world-settings:
       shulker-box-drop-contents-when-destroyed: true
       optimize-hoppers: false
       tick-when-empty: false
-      enable-entity-throttling: true
+      enable-entity-throttling: false
       disable-achievements: false
       disable-creatures-spawn-events: true
       disable-dolphin-swim-to-treasure: false
@@ -35,7 +42,7 @@ world-settings:
         compression-level: 1
         crash-on-broken-symlink: true
     gameplay:
-      fix-large-move-vector: true
+      teleport-async-on-high-velocity: true
       fix-void-trading: false
       break-redstone-on-top-of-trap-doors-early: false
       fix-tripwire-state-inconsistency: false

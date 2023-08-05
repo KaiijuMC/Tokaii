@@ -22,7 +22,7 @@ settings:
   save-user-cache-on-stop-only: false
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
-  netty-threads: 2
+  netty-threads: 1
   attribute:
     maxHealth:
       max: 2048.0
@@ -70,7 +70,7 @@ world-settings:
     merge-radius:
       item: 0
       exp: -1
-    item-despawn-rate: 15000
+    item-despawn-rate: 6000
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
     hanging-tick-frequency: 200

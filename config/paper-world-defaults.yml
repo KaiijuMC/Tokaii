@@ -30,7 +30,6 @@ anticheat:
     - deepslate_lapis_ore
     - mossy_cobblestone
     - obsidian
-    - chest
     - diamond_ore
     - deepslate_diamond_ore
     - redstone_ore
@@ -38,9 +37,9 @@ anticheat:
     - clay
     - emerald_ore
     - deepslate_emerald_ore
-    - ender_chest
+    - infested_stone
     lava-obscures: false
-    max-block-height: 64
+    max-block-height: 320
     replacement-blocks:
     - stone
     - oak_planks
